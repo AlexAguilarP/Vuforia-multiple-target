@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro for Workstations; OS build 19042.906; Version 2009; 64bit' Language: 'es' Physical Memory: 12168 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programas\UnityHub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Asus/Documents/proyectosUnity/Vuforia
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59680
+Successfully changed project path to: C:/Users/Asus/Documents/proyectosUnity/Vuforia
+C:/Users/Asus/Documents/proyectosUnity/Vuforia
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.01 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.46 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Asus/Documents/proyectosUnity/Vuforia/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6192
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001565 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.02 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.410 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.63 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.9 MB.
+System memory in use after: 60.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 1858.
+Total: 8.541800 ms (FindLiveObjects: 0.274500 ms CreateObjectMapping: 0.089200 ms MarkObjects: 7.206100 ms  DeleteObjects: 0.969400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f480857bbcedc254e811abededdb468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f480857bbcedc254e811abededdb468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9966b822e49a00cf6053701ef2efc75') in 0.243109 seconds
+  Import took 0.290119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.861821 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f480857bbcedc254e811abededdb468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f480857bbcedc254e811abededdb468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939ee190d72de81e6683eba8e63ecbec') in 0.013286 seconds
+  Import took 0.222239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.875752 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.005381 seconds
+  Import took 0.043013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 402.354907 seconds.
+  path: Assets/FourEvilDragonsHP
+  artifactKey: Guid(a86a494df89e69545928369be328fecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP using Guid(a86a494df89e69545928369be328fecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f29694e6055cb1c9fc0f69facb8558') in 0.004767 seconds
+  Import took 0.011701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.279558 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab
+  artifactKey: Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab using Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7783679ac016a21aacbab1474edaebb4') in 0.003703 seconds
+  Import took 0.009711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.116958 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare
+  artifactKey: Guid(8dbb47dd5a279ff48ae42d51c9373f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare using Guid(8dbb47dd5a279ff48ae42d51c9373f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2233843b952ecd773668e8a4af7f4dfe') in 0.004859 seconds
+  Import took 0.012148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067543 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Albino.prefab
+  artifactKey: Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Albino.prefab using Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64db379e4c3e4cd23c931fec58b0339e') in 1.038322 seconds
+  Import took 1.066049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002176 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/DarkBlue.prefab
+  artifactKey: Guid(a3e7850e56f7e2d4a8cb9e150f10c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/DarkBlue.prefab using Guid(a3e7850e56f7e2d4a8cb9e150f10c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41bfb6b70577ecec9739a9d829edfba') in 0.254651 seconds
+  Import took 0.264999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001987 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Green.prefab
+  artifactKey: Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Green.prefab using Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9302f00cdae8b7c3bda15ddb339af3') in 0.132932 seconds
+  Import took 0.141108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000917 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab
+  artifactKey: Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab using Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40a294c59d2bf09bf3fc25134bf3bdb') in 0.356043 seconds
+  Import took 0.367121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.302653 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater
+  artifactKey: Guid(8d080fb65bf4b9d4b890aefb0b412a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater using Guid(8d080fb65bf4b9d4b890aefb0b412a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c29beb46280b09ce515237d5ce7920') in 0.013840 seconds
+  Import took 0.179619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021587 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab
+  artifactKey: Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab using Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16127aff9dba66dbb754782924835ec3') in 0.364786 seconds
+  Import took 0.415457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Red.prefab
+  artifactKey: Guid(70f277dcf2cdfdd4db7ee0ca76e07767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Red.prefab using Guid(70f277dcf2cdfdd4db7ee0ca76e07767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a67d9130a5e95dfa55b9cb83fc4151') in 0.351246 seconds
+  Import took 0.358902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab
+  artifactKey: Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab using Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db43796f41e15d1bbb01760fd973800') in 0.321712 seconds
+  Import took 0.351610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Grey.prefab
+  artifactKey: Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Grey.prefab using Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35510de3cf76ea95557ac44f9274fde2') in 0.280658 seconds
+  Import took 0.288259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.624405 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer
+  artifactKey: Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer using Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab7cede508b41c1e5b4e3a6395fb98e') in 0.004386 seconds
+  Import took 0.088385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047604 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab
+  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fa2c0f0898567a918c9178797de54a') in 0.369820 seconds
+  Import took 0.385330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab
+  artifactKey: Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab using Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a11de9b8a6e1b0ce29be0e0cd3be43') in 0.291819 seconds
+  Import took 0.301779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab
+  artifactKey: Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab using Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e2a0978120309f5307c404378b782d') in 0.260380 seconds
+  Import took 0.272774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001504 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab
+  artifactKey: Guid(59c100dd669d88f46b60555886d4dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab using Guid(59c100dd669d88f46b60555886d4dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48b7ca06a0d6666a0322e7468afd62d') in 0.238150 seconds
+  Import took 0.248589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.632908 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper
+  artifactKey: Guid(da286c563d238e04c94cb6f9aa0a8331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper using Guid(da286c563d238e04c94cb6f9aa0a8331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888cc971e43e04105ab2a3294af94fb4') in 0.004649 seconds
+  Import took 0.012001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153642 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab
+  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0dcaab66ab184b73d1ffecaa65cab8') in 0.292639 seconds
+  Import took 0.319053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab
+  artifactKey: Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab using Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a13c36e582bf0bce4702c9f9b03f542') in 0.275056 seconds
+  Import took 0.285350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab
+  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dab157f39cf06e47e592adbb9e2d2e') in 0.244184 seconds
+  Import took 0.253376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab
+  artifactKey: Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab using Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbae773b835a52b7d1e0ac3a92ce4e19') in 0.258393 seconds
+  Import took 0.291060 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1629.59 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 2.817400 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.485400 ms  DeleteObjects: 0.073500 ms)
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 471.63 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 1022.182000 ms (FindLiveObjects: 971.438800 ms CreateObjectMapping: 0.155000 ms MarkObjects: 50.387500 ms  DeleteObjects: 0.198000 ms)
+

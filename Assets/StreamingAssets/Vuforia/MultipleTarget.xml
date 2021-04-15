@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="pepe-caldo-72945917" size="40.000000 40.000000" />
+    <ImageTarget name="OIP" size="40.000000 43.508774" />
+    <ImageTarget name="30420adc2aeb86a62b70823cd4d99cf6" size="40.000000 39.582214" />
+    <ImageTarget name="unnamed" size="40.000000 40.000000" />
+    <ImageTarget name="g4" size="40.000000 40.000000" />
+    <ImageTarget name="g3" size="40.000000 40.000000" />
+    <ImageTarget name="g2" size="40.000000 40.000000" />
+    <ImageTarget name="g1" size="40.000000 40.000000" />
+  </Tracking>
+</QCARConfig>
